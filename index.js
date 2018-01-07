@@ -14,7 +14,6 @@ html_content = `
 <button type="button" onclick='document.getElementById("demo").innerHTML = "Hello JavaScript!"'>Click Me!</button>
 </body>
 </html>
-
 `;
 
 var gzip_content = gzip.zip(html_content, options);
